@@ -1,0 +1,204 @@
+body {
+    font-family: "roboto";
+    color:#212121;
+    background-color: #ffffff;
+}
+ 
+:root{
+    --main-text: #212121;
+    --title-cl: #757575;
+    --dark-bl: #ffffff;
+    --logo-cl: #2196F3;
+
+    --dark-bg: #2F303A;
+    --main-bg: #E5E5E5;
+    --head-bg: #ffffff;
+
+    --main-font: "roboto", sans-serif;
+    --logo-font: "raleway", sans-serif;
+}
+
+.logo {
+font-family: var(--logo-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: var(--logo-cl);
+text-decoration: none;
+}
+
+.web {
+font-family: var(--logo-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: none;
+}
+
+.list{
+  td
+}
+
+a { 
+color: inherit;
+text-decoration: none;
+}
+
+.link{
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color var(--main-text);
+ }
+ li{
+   list-style-type: none;
+ }
+
+ .link:hover{
+   color: var(--logo-cl);
+ }
+
+ .link:focus{
+   color: var(--logo-cl);
+ }
+
+
+.section-title{
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-cl);
+}
+.address{
+  font-style: inherit;
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--dark-bl);
+}
+.hero{
+  background-color: var(--dark-bg);
+  text-align: center;
+}
+
+.page-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--dark-bl);
+}
+
+.title-lable{
+font-family: var(--main-font)
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-cl);
+}
+
+.title-item{
+font-family:var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.title-name{
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--main-text);
+}
+
+.title-proff{
+  font-family:var(--title-cl);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-cl);
+}
+
+.btn{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.06em;
+color: var(--dark-bl);
+background-color: var(--logo-cl);
+}
+
+.footer{
+  background-color: var(--dark-bg);
+}
+
+.web-footer{
+  color: #ffffff;
+font-family: var(--logo-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  margin: -1px;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.btn-second-tab{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+background-color: #ffffff;
+border: none;
+}
+
+.btn-second-tab:hover{
+color: #ffffff;
+background-color: var(--logo-cl);
+}
+
+.btn-second-tab:focus{
+  color: #ffffff;
+  background-color:var(--logo-ci);
+}
+
+
+.title-img{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.lable-item{
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color:var(title-cl);
+}

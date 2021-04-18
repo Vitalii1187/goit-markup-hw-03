@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+}
